@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>VintaCottage</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="OtherPictures/Picsart_24-09-24_17-35-37-685.png">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Poetsen+One&family=Uncial+Antiqua&family=Varela+Round&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<!------------ Background Video ------------>
+	<video autoplay muted loop id="video">
+		<source src="OtherPictures/lv_0_20240924174211.mp4" type="video/mp4">
+	</video>
+	<!------------ end Background Video ------------>
+
+	<!------------ This part logo top ------------>
+	<a href="index.html">
+		<img src="OtherPictures/logo.jpg" class="logo-top">
+	</a>
+	<!------------ end part logo top ------------>
+
+	<!------------ This part search ------------>
+	<div class="search-icon" onclick="toggleSearch()">
+		<i class='fas fa-search'></i>
+	</div>
+	<form id="searchForm">
+		<input placeholder="Search..." id="searchInput">
+		<div class="search-suggestions" id="suggestionsBox"></div>
+	</form>
+	<!------------ end part search ------------>
+
+	<!------------ This part is sidebar code  ------------>
+	<div id="main" class="container-fluid">
+		<button id="openNav" onclick="openNav()"">
+			<i class="fas fa-bars"></i> 	
+		</button>
+		<div class="texts">
+			<h1>Vinta Cottage Resort</h1>
+			<p>"Where nature's calm and comfort await you."</p>
+			<button id="myBtn" class="btn btn-info"><a href="">BOOK NOW <i class="fas fa-book-open"></i></a></button>
+		</div>
+	</div>
+	<nav id="mySidebar" class="sidebar">
+		<a class="closebtn" onclick="closeNav()">×</a>
+		<a href="index.html"><img src="OtherPictures/logo-removebg-preview.png"
+				class="logo"></a>
+		<h2>Vinta Cottage Resort</h2>
+		<a href=""><i class="fas fa-home"></i>Home</a>
+		<a href=""><i class="fas fa-book-open"></i> About us</a>
+		<a href=""><i class="fas fa-info-circle"></i> Facilities</a>
+		<a href=""><i class="fas fa-envelope"></i> Contact us</a>
+		<a href=""><i class="fas fa-envelope"></i> Meeting & Events</a>
+	</nav>
+	
+	<!------------ END part OF sidebar code  ------------>
+	<script src="script.js"></script>
+</body>
+
+</html>
