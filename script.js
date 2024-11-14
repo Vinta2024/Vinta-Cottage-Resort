@@ -60,5 +60,20 @@ span.onclick = function() {
 }
 // end part is modal function
 
+function toggleDropdown(dropdownId) {
+    var dropdownContent = document.getElementById(dropdownId);
+    dropdownContent.style.display = dropdownContent.style.display === "block" ? "none" : "block";
+}
+
+window.onclick = function(event) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (!event.target.matches('.dropdown') && openDropdown.style.display === 'block') {
+            openDropdown.style.display = 'none';
+        }
+    }
+};
+
 
 
