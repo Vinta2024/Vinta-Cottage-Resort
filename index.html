@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Vinta Cottage</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="OtherPictures/logo.jpg">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<!------------ This part is sidebar code  ------------>
+	<div id="main" class="container-fluid">
+		<button id="openNav" onclick="openNav()" class="btn btn-success">
+			<i class="fa fa-bars"></i>
+		</button>
+	</div>
+	<nav id="mySidebar" class="sidebar">
+		
+		<i class="closebtn" onclick="closeNav()"><i class='fa fa-times'></i></i>
+		
+		<a href="#header"><img src="OtherPictures/logo-removebg-preview.png"
+				class="logo"></a>
+				<a href="#header"><i class='fas fa-home'></i>HOME</a>
+				<a id="openPopupBtn"  onclick="toggle()"><i class='fas fa-info-circle'></i>POLICY</a>
+				<a href="#facilities"><i class='fas fa-home'></i>FACILITIES & EVENTS</a>
+				<a href="menu/alunsina menu.pdf"><i class='fas fa-drumstick-bite'></i>FOOD MENU</a>
+				<a href="#BookNow"><i class='fas fa-envelope'></i>RESERVATION</a>
+			</div>
+		</div>
+	</nav>
+	<!------------ END part OF sidebar code  ------------>
+
+	<!------------ This part is Header  ------------>
+	<header id="header">
+		<img class="image" src="OtherPictures/event.jpg" alt="About Us">
+		<div class="header-content">
+			<h1>VINTA COTTAGE</h1>
+			<p>BY ALUNSINA</p>
+		</div>
+	</header>
+	<!------------ end of Header  ------------>
+
+	<!------------ policy  ------------>
+	<section class="about-us" id="about-us">
+		<div class="policy" id="blur">
+			<div class="policy1">
+			</div>
+		   </div>	
+		   <div id="popup">
+			<i class="closebt"  onclick="toggle()"><i class='fa fa-times'></i></i>
+			<div class="h2">
+			<h2>POLICY</h2>
+			</div>
+			<ul class="left-aiigned">
+				<li>No smoking/vaping inside Premises. 	</li>
+				<li>Full payment must be settled 2 weeks before the event.</li>
+				<li>Pool usage starts at your time of event and ends at 8pm.</li>
+				<li>At least 30% down payment upon booking.Non-refundabla.</li>
+				<li>Any breakages from hotel properties are subject to charges.</li>
+				<li>Send the food details 2 weeks before the event for confirmation.</li>
+				<li>Any extenuating circumstances not stipulated in the contract may incur cost.</li>
+				<li>Food tasting schedule is two weeks before the event. Not applicable for rush event.</li>
+				<li>Always ask the management before making decisions on using any hotel properties.</li>
+				<li>Third party decorators must present an ingress and egress permit to guard on duty.</li>
+				<li>We accommodate rush event (1 week before the event) However,there will be no Fee Welcome Tarpulin. </li>
+				<li>We have the legal rigth to receive a copy of pictures and videos of event for marketing purposes.</li>
+			 </ul> 	
+		   </div>	
+		   <script type="text/javascript">
+			function toggle(){
+				var blur = document.getElementById('blur')
+				blur.classList.toggle('active');
+				var blur = document.getElementById('popup')
+				popup.classList.toggle('active');
+			}
+		   </script>
+		<hr>
+	</section>
+	<!------------end of policy  ------------>
+
+	<!------------ FACILITIES ------------>
+	<section class="event" id="facilities">
+		<h1>Facilities & Events</h1>
+<hr>
+		<div class="container">
+			<div class="card__container">
+			   <article class="card__article">
+				  <img src="OtherPictures/room.jpg" alt="image" class="card__img" style="width:40vw;height:20vw">
+   
+				  <div class="card__data">
+					 <h2 class="card__title">VINTA COTTAGE RESORTS BY ALUNSINA</h2>
+					 <span class="card__description">Vinta Cottage Resort by Alunsina, located in Brgy. Cogon, Roxas City offers a serene escape, making it an ideal destination for various events such as weddings, birthdays, reunions, and family vacations.</span>
+					 <a href="#" class="card__button"></a>
+				  </div>
+			   </article>
+   
+			   <article class="card__article">
+				  <img src="OtherPictures/event.jpg" alt="image" class="card__img" style="width:40vw;height:20vw" >
+   
+				  <div class="card__data">
+					<h2 class="card__title"> BEST CLAMPING EXPERIECE AT VINTA COTTAGE BY ALUNSINA</h2>
+					 <span class="card__description">Experience the ulitimate luxury camping experience at Vinta Cottage Resort by Alunsina. where nature meets comfort for an unforgettable gateway.</span>
+				
+					 <a href="#" class="card__button"></a>
+				  </div>
+			   </article>
+   
+			   <article class="card__article">
+				<img src="OtherPictures/1.jpg" alt="image" class="card__img" style="width:40vw;height:20vw" >
+   
+				  <div class="card__data">
+					 
+					 <h2 class="card__title">ROOFTOP AT VINTA COTTAGE BY ALUNSINA</h2>
+					<span class="card__description">The rooftop of Vinta Cottage is a peaceful, cozy space with a simple design, offering a relaxing view and a comfortable atmosphere</span> 
+					<a href="#" class="card__button"></a>
+				  </div>
+			   </article>
+			</div>
+		 </div>
+		 <!------------ 1end  ------------>
+		 <hr>
+		<!------------ 2  ------------>
+		<div class="container">
+			<div class="card__container">
+			   <article class="card__article">
+				  <img src="OtherPictures/bay.jpeg" alt="image" class="card__img"  style="width:40vw;height:20vw">
+
+				  <div class="card__data">
+					
+					 <h2 class="card__title">BEACHFRONT AT VINTA COTTAGE BY ALUNISANA</h2>
+					 <span class="card__description">Experience the soothing and relax in our beachfront Vinta Cottage, providing a traquil escape by the shore.</span> 
+					 <a href="#" class="card__button"></a>
+				  </div>
+			   </article>
+   
+			   <article class="card__article">
+				  <img src="OtherPictures/front.jpeg" alt="image" class="card__img" style="width:40vw;height:20vw">
+   
+				  <div class="card__data">
+					
+					 <h2 class="card__title">FRONT VIEW OF VINTA COTTAGE BY ALUNISANA</h2>
+					 <span class="card__description">Discover the invinting charm of our Vinta Cottage Located at Cogon, Roxas City, Capiz. Providing a blend of comfort and coastal ambiance for an unforgettable stay.</span>
+					  <a href="#" class="card__button"></a>
+				  </div>
+			   </article>
+   
+			   <article class="card__article">
+				  <img src="OtherPictures/sala.jpeg" alt="image" class="card__img"  style="width:40vw;height:20vw">
+   
+				  <div class="card__data">
+					
+					 <h2 class="card__title">LIVING ROOM AT VINTA COTTAGE BY ALUNSINA</h2>
+					<span class="card__description">The living room of Vinta Cottage is a cozy rustic space with wooden furniture and warm, invinting atmosphere.</span>
+					 <a href="#" class="card__button"></a>
+				  </div>
+			   </article>
+			</div>
+		 </div>
+<!------------ 2end  ------------>
+<hr>
+<!------------ 3  ------------>
+<div class="container">
+	<div class="card__container">
+	   <article class="card__article">
+		  <img src="OtherPictures/bed.jpeg" alt="image" class="card__img" style="width:40vw;height:20vw">
+
+		  <div class="card__data">
+			
+			 <h2 class="card__title">DELUXE SUITE AT VINTA COTTAGE BY ALUNSINA</h2>
+			  <span class="card__description">Experience luxury and comfort in our deluxe suite at Vinta Cottage, featuring modern amenities and elegant decor.</span>
+			 <a href="#" class="card__button"></a>
+		  </div>
+	   </article>
+
+	   <article class="card__article">
+		  <img src="OtherPictures/ter1.jpeg" alt="image" class="card__img" style="width:40vw;height:20vw">
+
+		  <div class="card__data">
+			 
+			 <h2 class="card__title">TERRACE OF VINTA COTTAGE BY ALUNSINA</h2>
+			 <span class="card__description">The Terrace of Vinta Cottage by Alunsina depicts a peaceful scene of a small cottage on a terrace, surrounded by nature, evoking a calm and rustic atmosphere. </span>
+			 <a href="#" class="card__button"></a>
+		  </div>
+	   </article>
+
+	   <article class="card__article">
+		  <img src="OtherPictures/water.jpeg" alt="image" class="card__img" style="width:40vw;height:20vw">
+
+		  <div class="card__data">
+			 
+			 <h2 class="card__title"> VINTA COTTAGE BY ALUNSINA WATER ACTIVITY</h2>
+			 <span class="card__description">Vinta Cottage Resort by Alunsina offers an exciting range of water activities, making it an ideal destination for those seeking fun and relaxation by the water. Guests can enjoy activities like floating cottage ,watersports, and swimming, surrounded by the serene beauty of nature.</span>
+			 <a href="#" class="card__button"></a>
+		  </div>
+	   </article>
+	</div>
+ </div>
+			 
+ <!------------ 3end  ------------>
+			<hr>
+			
+			<section>
+				<!------------ room------------>
+			<h2>ROOMS RATES</h2>
+			<table class="table">
+			  <tr>
+				<td>SINGLE ROOM </td>
+				<td>PHP 1,500</td>
+			  </tr>
+			  <tr>
+				<td>DELUXE ROOM</td>
+				<td>PHP 2,000</td>
+			  </tr>
+			  <tr>
+				<td>BEACH FACING ROOM </td>
+				<td>PHP3,000</td>
+			  </tr>
+			</table>
+			
+			<h2>CLAMPING CHARGE</h2>
+			<table class="table">
+			  <tr>
+				<td>2 PAX  </td>
+				<td>PHP 700</td>
+			  </tr>
+			  <tr>
+				<td>3-4 PAX</td>
+				<td>PHP  1,300</td>
+			  </tr>
+			  <tr>
+				<td>EXTRA PERSON </td>
+				<td>PHP 250</td>
+			  </tr>
+			  <tr>
+				<td>EXTRA TABLE 1 AND 4 CHAIRS</td>
+				<td>PHP 250</td>
+			  </tr>
+			  <tr>
+				<td>VISITORS WHO REMAINS PASS 8:00pm</td>
+				<td>PHP 250</td>
+			  </tr>
+			  <tr>
+				<td>GLAMPING VISITOR FEE (until 8:00pm) </td>
+				<td>PHP 50</td>
+			  </tr>
+			</table>
+			
+			<h2>PACKAGE INCLUSIVE</h2>
+			<table class="table">
+			  <tr>
+				<td>VENUE TABLES AND CHAIRS - 50 PAX AND UP</td>
+				<td>PHP 8,000</td>
+			  </tr>
+			  <tr>
+				<td>VENUE TABLES AND CHAIRS - 40 PAX AND BELOW</td>
+				<td>PHP 6,000</td>
+			  </tr>
+			  <tr>
+				<td>WHOLE VENUE INCLUDING 9 ROOMS </td>
+				<td>PHP 23,000</td>
+			  </tr>
+			</table>
+
+			<h2>OUR FACILITIES</h2>
+			<h3>We are committed to serve our guests with the best possible quality care and to insprire a healthy and enjoyable lifestyle long after your stay with us.</h3>
+			<br>
+			<table class="table">
+				<tr>
+				  <td>HOTEL ROOM AMENITIES</td>
+				</tr>
+					<tr>
+						<td>FREE PARKING</td>
+					  </tr>
+					<tr>
+						<td>ROOM SERVICE</td>
+					</tr>
+					<tr>
+						<td>FLOATING COTTAGE, WATERSPORTS, AND OTHER ACTIVITIES</td>
+					  </tr>
+					<tr>
+						<td>BEACH HOUSE AND GLAMPING</td>
+					  </tr>
+					</table>
+				
+			<!------------ end of FACILITIES ------------>
+
+		<!------------ booknow  ------------>
+ <section class="main_bg" id="RESARVATION">
+<div class="form">
+	<div class="form-text">
+		<img src="OtherPictures/logobooknow.png" alt="logo" style="width:40%;height:auto; margin: auto;">
+<h1><span><img scr="logo.jpg" alt=""></span>RESERVATION<span><img src="logo.jpg" alt=""></span></h1>
+<p></p>
+	</div>
+	<div class="main-form">
+		<form action="https://formspree.io/f/xwkgygez"  method="get">
+			<div>
+				<span>What is your name ?</span> 
+				<input type="text" name="name" id="name" placeholder=" Write your Full Name"required>
+			  </div>
+          <div>
+			<span>Your email address ?</span>
+			<input type="email" name="name" id="name" placeholder="Write Your Email"required>
+		  </div>
+		  <div>
+			<!--this is the select option-->
+			<span>How many people ?</span>
+			<select name="people" id="people" required>
+				<option value="">----People----></option>
+				<option value="1">1-10</option>
+				<option value="2">1-20</option>
+				<option value="3">1-30</option>
+				<option value="4">1-40</option>
+				<option value="5">1-50 or more</option>
+			</select>
+			<!--this is the select option-->
+		  </div>
+		  <div>
+			<span>What time ?</span>
+			<input type="text" name="time" id="time" placeholder=" What Time?"required>
+		  </div>
+		  <div>
+			<span>What is the date ?</span>
+			<input type="date" name="date" id="date" placeholder="date" required>
+		  </div>
+		   <div>
+			<span>Your phone number</span>
+			<input type="number" name="number" id="number" placeholder="Write your  number here..." required>
+		  </div>
+		  <div id="submit">
+			<input type="submit" value="RESERVE" id="submit">
+		  </div>
+			
+		</form>
+
+	</div>
+</div>
+<!------------end of booknow  ------------>
+<!--footer-->
+</section>
+<footer>
+	<div class="footer">
+		<div class="row">
+			<ul>
+				<a href="#header" onclick="toggle()"><i class='fas fa-info-circle'></i>Privacy Policy</a>
+			</ul>
+		</div>
+
+		<div>
+			<br>
+		</div>
+
+		<div class="greenfoot">
+			<div>Vinta Cottage Resort by Alunsina, Sitio Kabulacan, Brgy. Cogon, Roxas City, Capiz 5800 | +63 956 148 3553 | (036) 520 7908</div>
+		</div>
+	</div>
+	<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+<a href="https://www.facebook.com/HotelAlunsina/" class="fa fa-facebook"></a>
+<!--footer-->
+</section>
+</footer>
+	<!------------ End Content  ------------>
+
+	</section>
+		<script src="script.js"></script>
+</body>
+
+</html>
