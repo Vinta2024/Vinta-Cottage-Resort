@@ -3,8 +3,8 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: 0%;
     height: 100%;
     background: linear-gradient(to bottom, #fff, #ffffff);
     background-size: cover;
@@ -160,6 +160,7 @@ header img {
     left: 0;
     z-index: -1;
     align-items: center;
+    margin: auto;
 }
 
 .about-us {
@@ -205,7 +206,6 @@ h2 {
     font-family:"Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
-    margin: -1.2vw;
     margin-bottom: 2vw;
     margin-top: 2vw;
   
@@ -234,7 +234,7 @@ h2 {
     opacity: 0;
     transition: 0.5%;
     z-index: 1000;
-    border-radius: 15px;
+    border-radius: 10px;
 
     
 }
@@ -368,20 +368,17 @@ h2 {
     height: 120vh;
     display: flex;
     align-items: center;  
+    margin: auto;
 }
 .form{
     width: 60%;
     height: auto;
     background-color: rgb(241, 247, 248);
     position: absolute;
-    left: 400px;
 }
 .form-text {
     text-align: center;
     margin: 2vw 0;
-}
-.form-text img{
-    margin-left: 250px;
 }
 .form-text h1 span img{
     margin: 0 2vw;
@@ -442,7 +439,6 @@ h2 {
     align-items: center;
     background-color: #f8fcfd;
     transition: all .3s;
-    padding: 0px;
 }
 #submit input:hover{
     font-family: "Poppins", sans-serif;
@@ -522,15 +518,13 @@ h2 {
 }
 
 
-
 table{
     background: #e8ebf575;
     width: 90%;
     margin-bottom: 1rem;
     color: #212529;
     margin-left: 40px;
-    margin-right: 40px; 
-    
+    margin-right: 40px;   
   }
   table th{
     font-weight: 1000;
@@ -552,6 +546,4 @@ table{
   tr:hover {background-color: #FFD300;}
    
   
-.container{
-     margin-left: 200px;
-}
+      

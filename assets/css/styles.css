@@ -51,10 +51,9 @@ img {
   place-items: center;
   margin-inline: 1.9rem;
   padding-block: 5rem;
-  margin: 8% ;
+  margin: auto ;
   margin-top: -13vw;
   margin-bottom: -16vw;
-  margin-left: 400px;
 }
 
 .card__container {
